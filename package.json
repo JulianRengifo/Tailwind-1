@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss-cli@latest build css/tailwind.css -o public/css/style.css"
+    "build": "npx tailwindcss-cli@latest build ./src/tailwind.css -o ./dist/tailwind.css"
   },
   "keywords": [],
   "author": "",
