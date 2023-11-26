@@ -13,13 +13,38 @@
         <div class="text-2xl">&equiv;</div>
     </div>
 
-    <main>
+    <main class="bg-gray-300 mb-8">
         <div class="h-80 md:h-80 bg-no-repeat bg-center bg-cover" style="background-image: url('https://images.unsplash.com/photo-1560253023-3ec5d502959f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+        </div>
 
+        <div class="container mx-auto md:flex">
+            <div class="mx-2 md:mx-0 mt-4 md:w-1/2 md:flex md:bg-white rounded-lg"> <!--Cambiamos el ancho de la tarjeta a la mitad w-1/2-->
+                <div> <!--Con object-cover la imagen ocupa todo el espacio vertical-->
+                    <img class="w-full md:w-48 md:h-full object-cover rounded-lg md:rounded-r-none" src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=500&h=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+                    <div class="relative mx-2 p-2 shadow-lg md:shadow-none bg-white md:bg-transparent rounded-lg -mt-2"> <!--Si ponemos la margen negativa la imagen se superpone sobre el otro contenido -->
+                        <h2 class="text-2xl tracking-tight font-semibold uppercase text-gray-900 md:text-lg">Computador Gamer</h2> 
+                        <p class="text-gray-700 leading-snug">PC Gamer con Intel i9 y nvidia 4090</p>
+                        <div class="mt-2 text-sm font-semibold text-gray-700">$28.000.000</div>
+                        <div class="mt-2 text-xs text-yellow-700">&starf;&starf;&starf;&starf;&star; calificacion/reseñas</div>
+                    </div>
+           </div>
+
+           <div class="mx-2 md:mx-0 md:ml-2 mt-4 md:w-1/2 md:flex md:bg-white rounded-lg"> <!--Cambiamos el ancho de la tarjeta a la mitad w-1/2-->
+            <div> <!--Con object-cover la imagen ocupa todo el espacio vertical-->
+                <img class="w-full md:w-48 md:h-full object-cover rounded-lg md:rounded-r-none" src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=500&h=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+                <div class="relative mx-2 p-2 shadow-lg md:shadow-none bg-white md:bg-transparent rounded-lg -mt-2"> <!--Si ponemos la margen negativa la imagen se superpone sobre el otro contenido -->
+                    <h2 class="text-2xl tracking-tight font-semibold uppercase text-gray-900 md:text-lg">Computador Gamer</h2> 
+                    <p class="text-gray-700 leading-snug">PC Gamer con Intel i9 y nvidia 4090</p>
+                    <div class="mt-2 text-sm font-semibold text-gray-700">$28.000.000</div>
+                    <div class="mt-2 text-xs text-yellow-700">&starf;&starf;&starf;&starf;&star; calificacion/reseñas</div>
+                </div>
+       </div>
         </div>
     </main>
 
-    <footer class="absolute bottom-0 w-full text-white bg-secondary">
+    <footer class="w-full text-white bg-secondary">
 
         <div class="md:flex md:flex-row-reverse justify-around">
             <div class="mt-4 ml-8">
